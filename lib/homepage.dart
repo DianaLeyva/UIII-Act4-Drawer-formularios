@@ -41,14 +41,14 @@ class HomePage extends StatelessWidget {
               accountEmail: Text("diana@gmail.com"),
               currentAccountPicture: GestureDetector(
                 child: CircleAvatar(
+                  backgroundColor: Colors.white,
                   child: Text(
-                    "AM",
+                    "DE",
                     style: TextStyle(
                         color: Colors.pink,
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold),
                   ),
-                  backgroundColor: Colors.white,
                 ),
               ),
             )
